@@ -3,7 +3,7 @@ import express from 'express';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.status(200).send('Hello World!123');
+  res.status(200).send('You just fetched all notes');
 });
 
 router.post('/', (req, res) => {
