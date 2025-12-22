@@ -70,6 +70,9 @@ $RECYCLE.BIN/
 # Optional eslint cache
 .eslintcache
 
+# API keys
+.env
+
 # password files
 password.txt
 
