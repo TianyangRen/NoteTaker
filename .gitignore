@@ -69,3 +69,9 @@ $RECYCLE.BIN/
 
 # Optional eslint cache
 .eslintcache
+
+# password files
+password.txt
+
+# notes
+reminders.txt
