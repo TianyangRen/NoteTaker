@@ -6,7 +6,7 @@ const noteSchema = new mongoose.Schema({
     },
   { 
   timestamps: true    // createdAt and updatedAt fields
-    }
+  }
 );
 
 const Note = mongoose.model('Note', noteSchema);
