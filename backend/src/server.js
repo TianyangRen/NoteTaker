@@ -13,6 +13,11 @@ connectDB();
 // Middleware
 app.use(express.json());
 
+app.use((req, res, next) => {
+  console.log(`Req method is ${req.method} & Req URL is ${req.url}`);
+  next();
+});
+
 app.use("/api/notes", notesRoutes);
 
 app.listen(PORT, () => {
