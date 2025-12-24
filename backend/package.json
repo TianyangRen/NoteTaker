@@ -13,6 +13,8 @@
   "author": "Victor",
   "license": "ISC",
   "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.9",
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.3"
